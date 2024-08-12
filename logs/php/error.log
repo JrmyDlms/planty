@@ -1,0 +1,1 @@
+[12-Aug-2024 09:08:09 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/jett/Local Sites/planty/app/public/wp-includes/class-wp-customize-widgets.php on line 905

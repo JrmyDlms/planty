@@ -131,7 +131,8 @@ html body {
 }
 
 .form-section input[type="text"],
-.form-section input[type="email"] {
+.form-section input[type="email"],
+.form-section input[type="textarea"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -183,3 +184,53 @@ input[type="number"] {
   .wpcf7-not-valid-tip {
     color: #fffd00;
   }
+
+  .contact-section label {
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section input[type="textarea"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 383px;
+    height: 71px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 383px;
+    height: 237px;
+}
+
+.envoyer {
+    all: unset;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    border-radius: 5px;
+    background: #E0B9B4;
+}
+
+.envoyer:hover {
+    background: #C02E44;
+}
+
+.contact-but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

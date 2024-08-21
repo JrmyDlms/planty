@@ -11,3 +11,175 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  hello-elementor
 */
+
+/* Alignement des champs */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ec971f;
+}
+
+/* Style général */
+html body {
+    background-color: #3B8E46;
+    color: #FFF;
+}
+
+.wpcf7 {
+    margin-top: 40px;
+}
+
+.fruits-container {
+    display: flex;
+    justify-content: space-between; /* Espace entre les images */
+    align-items: center; /* Centre les images verticalement */
+    flex-wrap: wrap; /* Permet aux images de passer à la ligne si nécessaire */
+    border-bottom: 1px solid #fff; /* Ligne blanche verticale */
+    padding-bottom: 40px;
+    margin-bottom: 55px;
+}
+
+.fruit-container {
+    text-align: center;
+}
+
+.fruit-container p {
+    margin: 0;
+    margin-block-end: 0;
+}
+
+.fruit-image {
+    position: relative;
+    display: inline-block;
+    width: 195px; /* Ajustez la largeur selon vos besoins */
+}
+
+.fruit-image img {
+    width: 100%;
+    border-radius: 10px; /* Ajoute un coin arrondi à l'image */
+}
+
+.fruit-name {
+    position: absolute;
+    bottom: 45px; /* Place le texte à 10px du bas de l'image */
+    display: flex;
+    width: 195px; /* Largeur du texte selon Figma */
+    height: 55px; /* Hauteur du texte selon Figma */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syne', sans-serif; /* Assurez-vous que la police 'Syne' est disponible */
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Conteneur principal pour aligner les sections */
+.form-container {
+    display: flex;
+    justify-content: space-between; /* Espace entre les sections */
+}
+
+/* Style général pour les sections du formulaire */
+.form-section {
+    flex: 1; /* Les sections prennent une largeur égale */
+}
+
+.form-section:first-child {
+    border-right: 1px solid #fff; /* Ligne blanche verticale */
+    padding-right: 45px;
+}
+
+.form-section:nth-child(2) {
+    padding-left: 45px;
+}
+
+/* Style pour les titres des sections */
+.wpcf7-form h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-block-start: 0;
+}
+
+/* Style pour les labels et les champs du formulaire */
+.form-section label {
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 383px;
+    height: 71px;
+}
+
+
+input[type="number"] {
+    width: 40%;
+}
+
+
+.form-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.form-order p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.commander {
+    all: unset;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+    border-radius: 5px;
+    background: #E0B9B4;
+}
+
+.commander:hover {
+    background: #C02E44;
+}
+
+.wpcf7-spinner {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .wpcf7-not-valid-tip {
+    color: #fffd00;
+  }

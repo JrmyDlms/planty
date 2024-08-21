@@ -55,3 +55,7 @@ Stack trace:
 [20-Aug-2024 16:44:59 UTC] PHP Warning:  Undefined array key "editor_post_id" in /Users/jett/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/widgets.php on line 378
 [20-Aug-2024 17:19:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /Users/jett/Local Sites/planty/app/public/wp-includes/class-wp-styles.php on line 371
 [20-Aug-2024 17:19:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /Users/jett/Local Sites/planty/app/public/wp-includes/class-wp-fatal-error-handler.php on line 37
+[21-Aug-2024 16:27:58 UTC] PHP Warning:  Undefined array key "editor_post_id" in /Users/jett/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/widgets.php on line 378
+[21-Aug-2024 16:48:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/jett/Local Sites/planty/app/public/wp-content/themes/hello-elementor-child/header.php on line 17
+[21-Aug-2024 16:48:04 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/jett/Local Sites/planty/app/public/wp-content/themes/hello-elementor-child/header.php on line 17
+[21-Aug-2024 16:49:26 UTC] PHP Warning:  Undefined array key "editor_post_id" in /Users/jett/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/widgets.php on line 378

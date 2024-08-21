@@ -234,3 +234,115 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
+/* Style du header */
+.site-header {
+    background-color: #ffffff;
+    height: 80px;
+    padding-left: 20px;
+    margin: auto;
+    align-content: center;
+}
+
+/* Container général du header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Logo du site */
+.site-logo {
+    max-height: 20px;
+    width: 200px;
+}
+
+/* Navigation principale */
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.main-navigation ul li {
+    margin: 0;
+}
+
+.main-navigation ul li a {
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-navigation ul li a:hover {
+    color: #000;
+
+font-family: Syne;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.main-navigation ul li menu-commander {
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 236px;
+height: 80px;
+flex-shrink: 0;
+background: #DC9F96;
+}
+
+.menu-commander {
+    background-color: #d89485;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    height: 80px;
+    width: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-commander:hover {
+    background-color: #C02E44;
+    color: #ffffff;
+}
+
+/* Style général du footer */
+.site-footer {
+    background-color: #ffffff; /* Fond blanc */
+    display: flex;
+    height: 60px;
+    padding: 20px 0;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.site-footer .footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-navigation a {
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}

@@ -2240,14 +2240,14 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     --margin-right: 0px;
     --margin-bottom: 0px;
     --margin-left: 0px;
-    /*--padding-top: var(--container-default-padding-top, 10px);
+    --padding-top: var(--container-default-padding-top, 10px);
     --padding-right: var(--container-default-padding-right, 10px);
     --padding-bottom: var(--container-default-padding-bottom, 10px);
-    --padding-left: var(--container-default-padding-left, 10px);*/
+    --padding-left: var(--container-default-padding-left, 10px);
     --position: relative;
     --z-index: revert;
     --overflow: visible;
-    /*--gap: var(--widgets-spacing, 20px);*/
+    --gap: var(--widgets-spacing, 20px);
     --overlay-mix-blend-mode: initial;
     --overlay-opacity: 1;
     --overlay-transition: 0.3s;

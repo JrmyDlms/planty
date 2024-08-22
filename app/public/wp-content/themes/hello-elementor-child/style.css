@@ -12,13 +12,188 @@
  Text Domain:  hello-elementor
 */
 
-/* Alignement des champs */
-label {
-    display: block;
+html body {
+    background-color: #3B8E46;
+    color: #FFF;
+}
+
+.wpcf7 {
+    margin-top: 40px;
+}
+
+.fruits-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 40px;
+    margin-bottom: 55px;
+}
+
+.fruit-container {
+    text-align: center;
+}
+
+.fruit-container p {
+    margin: 0;
+    margin-block-end: 0;
+}
+
+.fruit-image {
+    position: relative;
+    display: inline-block;
+    width: 195px;
+}
+
+.fruit-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fruit-name {
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    width: 195px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width:1024px) {
+    .form-section:first-child {
+        padding-right: 0px !important;
+        border-right: none !important;
+    }
+
+    .form-section:nth-child(2) {
+        padding-left: 0px !important;
+    }
+
+    .form-container {
+        text-align: center;
+    }
+
+    .fruits-container {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .wpcf7-form h3 {
+        text-align: center;
+    }
+
+    .contact-but {
+        justify-content: center;
+    }
+
+    .menu-commander {
+        width: 150px !important;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-48 .elementor-element.elementor-element-1abdfe7 {
+        width: 400px !important;
+    }
+
+    .contact-section p {
+        text-align: center !important;
+        width: 250px !important;
+    }
+
+    .contact-section input[type="text"],
+    .contact-section input[type="email"],
+    .contact-section input[type="textarea"] {
+        width: 250px !important;
+    }
+
+    textarea {
+        width: 250px !important;
+    }
+
+    .envoyer {
+        width: 250px !important;
+    }
+}
+
+
+@media (max-width: 512px) {
+
+    .menu-commander {
+        width: 100px !important;
+    }
+
+    .main-navigation ul {
+        gap: 30px !important;
+    }
+}
+
+.form-section {
+    flex: 1;
+}
+
+.form-section:first-child {
+    border-right: 1px solid #fff;
+    padding-right: 45px;
+}
+
+.form-section:nth-child(2) {
+    padding-left: 45px;
+}
+
+.wpcf7-form h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-block-start: 0;
+}
+
+.form-section label {
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-select, input[type="text"], input[type="email"] {
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="textarea"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 383px;
+    height: 71px;
+}
+
+input[type="number"] {
+    width: 40%;
+}
+
+select,
+input[type="text"],
+input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -39,115 +214,6 @@ button {
 button:hover {
     background-color: #ec971f;
 }
-
-/* Style général */
-html body {
-    background-color: #3B8E46;
-    color: #FFF;
-}
-
-.wpcf7 {
-    margin-top: 40px;
-}
-
-.fruits-container {
-    display: flex;
-    justify-content: space-between; /* Espace entre les images */
-    align-items: center; /* Centre les images verticalement */
-    flex-wrap: wrap; /* Permet aux images de passer à la ligne si nécessaire */
-    border-bottom: 1px solid #fff; /* Ligne blanche verticale */
-    padding-bottom: 40px;
-    margin-bottom: 55px;
-}
-
-.fruit-container {
-    text-align: center;
-}
-
-.fruit-container p {
-    margin: 0;
-    margin-block-end: 0;
-}
-
-.fruit-image {
-    position: relative;
-    display: inline-block;
-    width: 195px; /* Ajustez la largeur selon vos besoins */
-}
-
-.fruit-image img {
-    width: 100%;
-    border-radius: 10px; /* Ajoute un coin arrondi à l'image */
-}
-
-.fruit-name {
-    position: absolute;
-    bottom: 45px; /* Place le texte à 10px du bas de l'image */
-    display: flex;
-    width: 195px; /* Largeur du texte selon Figma */
-    height: 55px; /* Hauteur du texte selon Figma */
-    justify-content: center;
-    align-items: center;
-    font-family: 'Syne', sans-serif; /* Assurez-vous que la police 'Syne' est disponible */
-    font-size: 20px;
-    font-weight: 800;
-    line-height: normal;
-}
-
-/* Conteneur principal pour aligner les sections */
-.form-container {
-    display: flex;
-    justify-content: space-between; /* Espace entre les sections */
-}
-
-/* Style général pour les sections du formulaire */
-.form-section {
-    flex: 1; /* Les sections prennent une largeur égale */
-}
-
-.form-section:first-child {
-    border-right: 1px solid #fff; /* Ligne blanche verticale */
-    padding-right: 45px;
-}
-
-.form-section:nth-child(2) {
-    padding-left: 45px;
-}
-
-/* Style pour les titres des sections */
-.wpcf7-form h3 {
-    font-family: 'Syne', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 35px;
-    margin-block-start: 0;
-}
-
-/* Style pour les labels et les champs du formulaire */
-.form-section label {
-    font-family: 'Syne', sans-serif;
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-
-.form-section input[type="text"],
-.form-section input[type="email"],
-.form-section input[type="textarea"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    width: 383px;
-    height: 71px;
-}
-
-
-input[type="number"] {
-    width: 40%;
-}
-
 
 .form-order {
     display: flex;
@@ -179,16 +245,16 @@ input[type="number"] {
 .wpcf7-spinner {
     display: none !important;
     visibility: hidden !important;
-  }
+}
 
-  .wpcf7-not-valid-tip {
+.wpcf7-not-valid-tip {
     color: #fffd00;
-  }
+}
 
-  .contact-section label {
+.contact-section label {
     font-family: 'Syne', sans-serif;
     font-size: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: #000;
 }
 
@@ -221,6 +287,7 @@ textarea {
     width: 198px;
     height: 55px;
     padding: 9px 57px 9px 56px;
+    text-align: center;
     border-radius: 5px;
     background: #E0B9B4;
 }
@@ -235,7 +302,6 @@ textarea {
     align-items: center;
 }
 
-/* Style du header */
 .site-header {
     background-color: #ffffff;
     height: 80px;
@@ -244,19 +310,21 @@ textarea {
     align-content: center;
 }
 
-/* Container général du header */
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/* Logo du site */
+
 .site-logo {
     max-height: 20px;
     width: 200px;
 }
 
-/* Navigation principale */
+.main-navigation {
+    margin-left: 50px;
+}
+
 .main-navigation ul {
     list-style: none;
     padding: 0;
@@ -281,12 +349,11 @@ textarea {
 
 .main-navigation ul li a:hover {
     color: #000;
-
-font-family: Syne;
-font-size: 13px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Syne;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .main-navigation ul li menu-commander {
@@ -298,9 +365,9 @@ line-height: normal;
     font-weight: 700;
     line-height: normal;
     width: 236px;
-height: 80px;
-flex-shrink: 0;
-background: #DC9F96;
+    height: 80px;
+    flex-shrink: 0;
+    background: #DC9F96;
 }
 
 .menu-commander {
@@ -320,9 +387,8 @@ background: #DC9F96;
     color: #ffffff;
 }
 
-/* Style général du footer */
 .site-footer {
-    background-color: #ffffff; /* Fond blanc */
+    background-color: #ffffff;
     display: flex;
     height: 60px;
     padding: 20px 0;
@@ -345,4 +411,8 @@ background: #DC9F96;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
+}
+
+.footer-navigation ul {
+    padding-left: 0px;
 }

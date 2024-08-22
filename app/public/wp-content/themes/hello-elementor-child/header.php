@@ -29,4 +29,3 @@
             </nav>
         </div>
     </header>
-    <!-- Rest of your template... -->

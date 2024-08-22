@@ -1,5 +1,4 @@
-
-.elementor-kit-8 {
+/*.elementor-kit-8 {
     --e-global-color-primary: #6EC1E4;
     --e-global-color-secondary: #54595F;
     --e-global-color-text: #7A7A7A;
@@ -30,7 +29,7 @@
 .elementor-element {
     --widgets-spacing: 20px 20px;
 }
-/*
+
 .site-header .header-inner {
     width: 0px;
     max-width: 100%;
@@ -50,7 +49,6 @@
 .site-footer {
     background-color: #FFFFFF;
 }
-    */
 
 @media(max-width:1024px) {
     .elementor-section.elementor-section-boxed>.elementor-container {
@@ -70,4 +68,4 @@
     .e-con {
         --container-max-width: 767px;
     }
-}
+}*/

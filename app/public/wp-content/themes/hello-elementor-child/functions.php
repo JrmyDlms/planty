@@ -18,5 +18,3 @@ add_action('wp_enqueue_scripts', 'remove_parent_styles', 20);
 // Ajoutez l'action pour charger les styles
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 ?>
-
-

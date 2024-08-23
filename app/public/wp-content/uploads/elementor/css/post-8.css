@@ -1,4 +1,4 @@
-/*.elementor-kit-8 {
+.elementor-kit-8 {
     --e-global-color-primary: #6EC1E4;
     --e-global-color-secondary: #54595F;
     --e-global-color-text: #7A7A7A;
@@ -37,7 +37,6 @@
 
 .site-header {
     padding-inline-end: 0px;
-    padding-inline-start: 0px;
     background-color: #FFFFFF;
 }
 
@@ -68,4 +67,4 @@
     .e-con {
         --container-max-width: 767px;
     }
-}*/
+}

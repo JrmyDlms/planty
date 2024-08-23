@@ -9,7 +9,7 @@ function theme_enqueue_styles() {
 
 // Supprimer les styles spécifiques du thème parent
 function remove_parent_styles() {
-    wp_dequeue_style('hello-elementor'); // Remplacez 'hello-elementor-css' par l'ID correct du style à supprimer
+    wp_dequeue_style('hello-elementor');
 }
 
 // Ajoutez l'action pour supprimer les styles du parent
